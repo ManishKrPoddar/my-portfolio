@@ -1,4 +1,4 @@
 # my-portfolio
 This is my portfolio website
 
-Commiting for git hub changes
+This is my portfolio website using AWS and GitHub
