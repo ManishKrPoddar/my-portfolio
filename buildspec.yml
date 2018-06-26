@@ -2,7 +2,8 @@ version: 0.1
 phases:
   build:
     commands:
-      - echo Nothing to be done
+      - npm install
+      - npm test
 artifacts:
   files:
     - index.html
@@ -10,3 +11,4 @@ artifacts:
     - Manish_CV.pdf
     - styles/*
     - images/*
+    - dist/bundle.js
