@@ -1,8 +1,10 @@
 version: 0.1
+
 phases:
   pre_build:
     commands:
       - npm install
+      - npm test
   build:
     commands:
       - npm run webpack
@@ -11,6 +13,6 @@ artifacts:
     - index.html
     - favicon.ico
     - Manish_CV.pdf
-    - styles/*
+    - styles/main.css
     - images/*
     - dist/bundle.js
